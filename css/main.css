@@ -1,0 +1,30 @@
+ body{
+    background-color:aqua ;
+ }
+ nav{
+    background-color: black;
+ }
+
+ nav a{
+    display: inline-block;
+    color: azure;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+@media all and (max-width: 768px){
+    h2{
+        text-align: center;
+        font-size:7vw ;
+    }
+
+    nav a{
+        width: 100%;
+        text-align: center;
+    }
+
+    
+}
+
+
+
+
