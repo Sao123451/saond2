@@ -1,0 +1,48 @@
+header{
+    background-color:#4CAF50 ;
+    width: 500px;
+    height: 85px;
+    
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 1px;
+    color: white;
+}
+section{
+    background-color:#FF9800 ;
+    width: 450px;
+    height: 300px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    padding-top: 8px;
+    margin-top: 25px;
+    
+    
+    
+}
+footer{
+    background-color:#da952d    ;
+    width: 500px;
+    height: 85px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    margin-top: 25px;
+    padding-top: 16px;
+}
+
+@media all and (min-width: 768px){
+    header{
+        width: 100%;
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    footer{
+        width: 100%;
+    }
+}
