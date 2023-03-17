@@ -1,7 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+
 .content {
     display: flex;
     justify-content: space-around;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .item {
