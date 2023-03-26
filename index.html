@@ -1,18 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
     <title>Trang chủ</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    <h2>saond</h2>
-    <nav>
-        <a href="">trang chủ</a>
-        <a href="">sản phẩm</a>
-        <a href="">Liên hệ</a>
-    </nav>
+    <script>
+        $(document).ready(function () {
+            $('#toggle').click(function () {
+                $('nav').slideToggle();
+            })
+        })
+    </script>
+    <div>
+
+        <div class="menu">
+            <img class="logo" src="images/tote-1_33445b051a404bb790b6d0df0275ac8d.webp" alt="">
+
+            <div>
+                <div id="toggle">
+                    <i class="fas fa-bars" style="color: #f948eb;"></i>
+                </div>
+                <nav>
+                    <ul id="main-menu">
+                        <li><a href="">Trang chủ</a>
+                        </li>
+                        <li><a href="">Sản Phẩm</a>
+                        </li>
+                        <li><a href="">Liên Hệ</a>
+                        </li>
+                        <li><a href="">Giao hàng</a>
+                        </li>
+                        <li><a href="">Thanh Toán</a>
+                        </li>
+                        <li><a href="">Bảng Size</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div>
+            <img class="banner" src="images/1656a7546ee3b5bdecf2__1__7ca7e8721ade40eeb6498e0447de4e9f.webp" alt="">
+        </div>
+
+        <h2>
+            BEST SELLER
+        </h2>
+
+        <div class="imgbestseller">
+            <div>
+                <img class="img-size" src="images/17_c3c30f7f09b149c082e308940655671c.webp" alt="">
+            </div>
+            <div>
+                <img class="img-size" src="images/6_530ef4bf1bae4ac5a29714be899bffda.jpg" alt="">
+            </div>
+            <div>
+                <img class="img-size" src="images/9_16310d060c5d428397967f8c31c97f08.webp" alt="">
+            </div>
+            <div>
+                <img class="img-size" src="images/0b85bfa2c0061d584417_4256b659457d4a61b1e324461ae1c632_large.webp"
+                    alt="">
+            </div>
+            <div>
+                <img class="img-size" src="images/bbd_92c990a1e92b4f14aba34207ad27e4e9_large.webp" alt="">
+            </div>
+            <div>
+                <img class="img-size"
+                    src="images/ff5dd6d265d34ca99654314394600dc9_b6bb13153a114d7c81e9708b125c42aa_large.webp" alt="">
+            </div>
+        </div>
+
+        <div class="voucher">
+            <div class="discount" style="margin-top: 0.5em ;">
+                <p>Mã Free Ship</p>
+            </div>
+            <div class="discount" style="margin-top: 0.5em ;">
+                <p>Mã Giảm Giá 10%</p>
+            </div>
+            <div class="discount" style="margin-top: 0.5em ;">
+                <p>Mã Giảm Giá 20% </p>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <img class="imgfooter" src="images/tote-1_33445b051a404bb790b6d0df0275ac8d.webp" alt="">
+            <div class="gridfooter">
+                <div class="containerfooter">
+                    <p class="pfooter"><b>Thông Tin Cửa hàng</b></p>
+                    <p class="pfooter">Liên hệ:0389096756</p>
+                    <p class="pfooter">Email:saondph35070@fpt.edu.vn</p>
+                    <p class="pfooter">Địa Chỉ:Cao Đẳng FPT Polytechnic</p>
+                </div>
+                <div class="containerfooter">
+                    <p class="pfooter"><b>Chính Sách</b></p>
+                    <p class="pfooter" style="cursor: pointer;">Phương Thức Giao Hàng</p>
+                    <p class="pfooter" style="cursor: pointer;">Đổi Trả</p>
+                    <p class="pfooter" style="cursor: pointer;">Phương Thức Thanh Toán</p>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
