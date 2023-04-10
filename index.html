@@ -5,113 +5,287 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
-    <title>Trang chủ</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 
 </head>
 
-<body>
-    <script>
-        $(document).ready(function () {
-            $('#toggle').click(function () {
-                $('nav').slideToggle();
-            })
-        })
-    </script>
-    <div>
-
-        <div class="menu">
-            <img class="logo" src="images/tote-1_33445b051a404bb790b6d0df0275ac8d.webp" alt="">
-
-            <div>
-                <div id="toggle">
-                    <i class="fas fa-bars" style="color: #f948eb;"></i>
-                </div>
-                <nav>
-                    <ul id="main-menu">
-                        <li><a href="">Trang chủ</a>
-                        </li>
-                        <li><a href="">Sản Phẩm</a>
-                        </li>
-                        <li><a href="">Liên Hệ</a>
-                        </li>
-                        <li><a href="">Giao hàng</a>
-                        </li>
-                        <li><a href="">Thanh Toán</a>
-                        </li>
-                        <li><a href="">Bảng Size</a>
-                        </li>
-                    </ul>
-                </nav>
+<body style="background-color: rgb(128, 128, 128);" >
+    <nav class="navbar fixed-top  navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.webp" alt="Bootstrap" width="50" height="44">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link "  href="index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page2.html">Sản Phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Liên hệ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Giao hàng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Thanh toán</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bảng size</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
 
-        <div>
-            <img class="banner" src="images/1656a7546ee3b5bdecf2__1__7ca7e8721ade40eeb6498e0447de4e9f.webp" alt="">
+
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+
         </div>
-
-        <h2>
-            BEST SELLER
-        </h2>
-
-        <div class="imgbestseller">
-            <div>
-                <img class="img-size" src="images/17_c3c30f7f09b149c082e308940655671c.webp" alt="">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/banner trang chủ.webp" class="d-block w-100 h-40" alt="...">
             </div>
-            <div>
-                <img class="img-size" src="images/6_530ef4bf1bae4ac5a29714be899bffda.jpg" alt="">
+            <div class="carousel-item">
+                <img src="images/banner trang chủ 2.webp" class="d-block w-100 h-40" alt="...">
             </div>
-            <div>
-                <img class="img-size" src="images/9_16310d060c5d428397967f8c31c97f08.webp" alt="">
-            </div>
-            <div>
-                <img class="img-size" src="images/0b85bfa2c0061d584417_4256b659457d4a61b1e324461ae1c632_large.webp"
-                    alt="">
-            </div>
-            <div>
-                <img class="img-size" src="images/bbd_92c990a1e92b4f14aba34207ad27e4e9_large.webp" alt="">
-            </div>
-            <div>
-                <img class="img-size"
-                    src="images/ff5dd6d265d34ca99654314394600dc9_b6bb13153a114d7c81e9708b125c42aa_large.webp" alt="">
+            <div class="carousel-item">
+                <img src="images/banner trang chủ 3.webp" class="d-block w-100 h-40" alt="...">
             </div>
         </div>
-
-        <div class="voucher">
-            <div class="discount" style="margin-top: 0.5em ;">
-                <p>Mã Free Ship</p>
-            </div>
-            <div class="discount" style="margin-top: 0.5em ;">
-                <p>Mã Giảm Giá 10%</p>
-            </div>
-            <div class="discount" style="margin-top: 0.5em ;">
-                <p>Mã Giảm Giá 20% </p>
-
-            </div>
-        </div>
-
-        <footer class="footer">
-            <img class="imgfooter" src="images/tote-1_33445b051a404bb790b6d0df0275ac8d.webp" alt="">
-            <div class="gridfooter">
-                <div class="containerfooter">
-                    <p class="pfooter"><b>Thông Tin Cửa hàng</b></p>
-                    <p class="pfooter">Liên hệ:0389096756</p>
-                    <p class="pfooter">Email:saondph35070@fpt.edu.vn</p>
-                    <p class="pfooter">Địa Chỉ:Cao Đẳng FPT Polytechnic</p>
-                </div>
-                <div class="containerfooter">
-                    <p class="pfooter"><b>Chính Sách</b></p>
-                    <p class="pfooter" style="cursor: pointer;">Phương Thức Giao Hàng</p>
-                    <p class="pfooter" style="cursor: pointer;">Đổi Trả</p>
-                    <p class="pfooter" style="cursor: pointer;">Phương Thức Thanh Toán</p>
-                </div>
-            </div>
-        </footer>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
+
+    <!-- <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img src="images/ảnh giới thiệu1.jpg" alt="...">
+        </div>
+        <div class="flex-grow-1 ms-3">
+            Cái tên Degrey được tạo ra rất ngẫu hứng, xuất phát từ “Chuỗi ngày u buồn về sự nghiệp, tương lai trong quá khứ của chính mình” – theo lời chia sẻ của Degrey’s founder. Là một local brand mang khuynh hướng Á Đông, kết hợp giữa hai yếu tố truyền thống và hiện đại, Degrey luôn cố gắng mang đến những thông điệp văn hoá ý nghĩa qua từng đường nét thiết kế.
+        </div>
+      </div> -->
+
+    <div style=" align-items: center; margin-top: 2rem;" class="container   ps-xl-5 ps-3">
+        <div class="row mt-3 ">
+            <div class="col col-md-12 col-12 col-lg-8 col-xl-6 mx-auto mb-4 mt-5 ">
+                <img src="images/ảnh giới thiệu1.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col col-md-12 col-12 col-lg-4 col-xl-6 mx-auto mb-4 mt-5  ">
+            <h2>Giới Thiệu</h2>
+            <div  >
+                <p >
+                    Cái tên Degrey được tạo ra rất ngẫu hứng, xuất phát từ “Chuỗi ngày u buồn về sự nghiệp, tương lai trong quá khứ của chính mình” – theo lời chia sẻ của Degrey’s founder. Là một local brand mang khuynh hướng Á Đông, kết hợp giữa hai yếu tố truyền thống và hiện đại, Degrey luôn cố gắng mang đến những thông điệp văn hoá ý nghĩa qua từng đường nét thiết kế.
+                </p>
+            </div>
+            </div>
+            
+        </div>
+    <div class="container">
+        
+        <h2 style="font-weight: bold;"  class="mt-4 text-center  " >BEST SALES</h2>
+        <div class="row mt-1 g-4">
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="col">
+                    <div class="card h-100">
+                        <img  src="images/sản phẩm 1.webp"
+                            class="  card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Degrey Leather Basic Balo - LBB</h5>
+                            <div class="col-12 row me-0">
+                                <div class=" col-8">
+                                    <h6 style="color: red;" class="pb-0">Giá: 430.000vnđ</h6>
+                                </div>
+                                <div class="col-4 pe-0 text-end">
+                                    <a href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="col">
+                    <div  class="card h-100">
+                        <img src="images/sản phẩm 2.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Degrey Premium Leather</h5>
+                            <div class="col-12 row me-0">
+                                <div class=" col-8">
+                                    <h6 style="color: red;" class="pb-0"> Giá:390.000vnđ</h6>
+                                </div>
+                                <div class="col-4 pe-0 text-end">
+                                    <a href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/Sản phẩm 3.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Degrey Quần short giả da</h5>
+                            <div class="col-12 row me-0">
+                                <div class=" col-8">
+                                    <h6 style="color: red;" class="pb-0"> Giá:530.000vnđ</h6>
+                                </div>
+                                <div class="col-4 pe-0 text-end">
+                                    <a href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/Sản phẩm 4.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Quần Dù Túi Hộp Degrey - QTH</h5>
+                            <div class="col-12 row me-0">
+                                <div class=" col-8">
+                                    <h6 style="color: red;" class="pb-0"> Giá:520.000vnđ</h6>
+                                </div>
+                                <div class="col-4 pe-0 text-end">
+                                    <a href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/Sản phẩm 7.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Degrey.Pallas Cross Ring - DPCR</h5>
+                            <div class="col-12 row me-0">
+                                <div class=" col-8">
+                                    <h6 style="color: red;" class="pb-0">Giá:550.000vnđ</h6>
+                                </div>
+                                <div class="col-4 pe-0 text-end">
+                                    <a href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/Sản phẩm 6.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Túi Da Degrey Leather Basic</h5>
+                            <div class="col-12 row me-0">
+                                <div class=" col-8">
+                                    <h6 style="color: red;" class="pb-0">Giá:230.000vnđ</h6>
+                                </div>
+                                <div class="col-4 pe-0 text-end">
+                                    <a href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <button style="background-color: black;"  type="button" class="btn "> <a style="color: white; text-decoration: none;" href="page2.html">Xem Tất Cả Sản Phẩm</a> </button></div>
+    </div>
+
+    <div style="background-color: black; color: white;" >
+        <section id="footer">
+          <div class="container text-center text-md-start mt-5" >
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h5 class="mt-4 mb-3">Về Degrey</h5>
+                <p>Cái tên Degrey được tạo ra rất ngẫu hứng, xuất phát từ “Chuỗi ngày u buồn về sự nghiệp, tương lai trong quá khứ của chính mình” – theo lời chia sẻ của Degrey’s founder. </p>
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h5 class="mt-4 mb-3" >Địa chỉ</h5>
+                <ul class="nav flex-column">
+                  <li >-Sài Gòn:
+                    43 Huỳnh Văn Bánh P.17 Q.Phú Nhuận</a></li>
+                  <li >-Đà Lạt:
+                    11 Khu Hoà Bình P.1</a></li>
+                  <li >-Điện thoại: 0336311117</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h5 class="mt-4 mb-3" >Hỗ trợ khách hàng</h5>
+                <ul class="nav flex-column">
+                  <li >Hệ thống cửa hàng</a></li>
+                  <li >Hướng dẫn đặt hàng</a></li>
+                  <li >Chính sách và quy định</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4" >
+                <h5 class="mt-4 mb-3" >Chăm sóc khách hàng</h5>
+                <ul class="nav flex-column">
+                  <li >
+                     Liên hệ:0336311117
+                  </li>
+                  <li >
+                        degrey.vn@gmail.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+    
+          </div>
+          <div class="container-fluid"style="background-color: black; color: white; margin: 0 ; padding:10px;">
+            <p  class="text-center ">Copyright © 2023 DEGREY VIETNAM. Powered by Haravan</p>
+          </div>
+    
+        </section>
+      </div>
+
+
+
+    
+
+
+
 </body>
 
 </html>

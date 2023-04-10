@@ -1,12 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.webp" alt="Bootstrap" width="50" height="44">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page2.html">Sản Phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Liên hệ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Giao hàng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Thanh toán</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bảng size</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/banner sản phẩm.webp" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 style="text-align: center; margin: 1em;">
+            Tất Cả Sản Phẩm
+        </h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/sản phẩm 1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Degrey Leather Basic Balo - LBB</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small style="color: red;">Giá: 430.000vnđ</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/sản phẩm 2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Degrey Premium Leather</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small style="color: red;">Giá: 390.000vnđ</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/Sản Phẩm 11.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Trà Xoài Cam Sả - TXCS</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small style="color: red;">GIÁ: 55.000vnđ</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/Sản phẩm 4.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Quần Dù Túi Hộp Degrey - QTH</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small style="color: red;">GIÁ: 520.000vnđ</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/Sản phẩm 12.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Xoài Mực - XM</h5>
+
+                    </div>
+                    <div class="card-footer">
+                        <small style="color: red;">GIÁ: 120.000vnđ</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/Sản phẩm 8.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Balo Degrey Leather Flap Backpack - DLFB</h5>
+
+                    </div>
+                    <div class="card-footer">
+                        <small style="color: red;">GIÁ: 380.000vnđ</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/Sản Phẩm 9.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Basic Backpack Degrey Xám - BBD Xám</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small style="color: red;">GIÁ: 420.000vnđ</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/Sản Phẩm 10.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Degrey.Pallas Lucky Ring - DPLR</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small style="color: red;">GIÁ: 850.000vnđ</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/Sản phẩm 5.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Degrey.Madmonks Áo khoác Bomber Lông - JBB</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small style="color: red;">GIÁ: 450.000vnđ</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <nav class="mt-3 " aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+
+    </div>
+
+
+
+
+    <div style="background-color: black; color: white;">
+        <section id="footer">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h5 class="mt-4 mb-3">Về Degrey</h5>
+                        <p>Cái tên Degrey được tạo ra rất ngẫu hứng, xuất phát từ “Chuỗi ngày u buồn về sự nghiệp, tương
+                            lai trong quá khứ của chính mình” – theo lời chia sẻ của Degrey’s founder. </p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h5 class="mt-4 mb-3">Địa chỉ</h5>
+                        <ul class="nav flex-column">
+                            <li>-Sài Gòn:
+                                43 Huỳnh Văn Bánh P.17 Q.Phú Nhuận</a></li>
+                            <li>-Đà Lạt:
+                                11 Khu Hoà Bình P.1</a></li>
+                            <li>-Điện thoại: 0336311117</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h5 class="mt-4 mb-3">Hỗ trợ khách hàng</h5>
+                        <ul class="nav flex-column">
+                            <li>Hệ thống cửa hàng</a></li>
+                            <li>Hướng dẫn đặt hàng</a></li>
+                            <li>Chính sách và quy định</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h5 class="mt-4 mb-3">Chăm sóc khách hàng</h5>
+                        <ul class="nav flex-column">
+                            <li>
+                                Liên hệ:0336311117
+                            </li>
+                            <li>
+                                degrey.vn@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container-fluid" style="background-color: black; color: white; margin: 0 ; padding:10px;">
+                <p class="text-center ">Copyright © 2023 DEGREY VIETNAM. Powered by Haravan</p>
+            </div>
+
+        </section>
+    </div>
+
 </body>
-</html>m
+
+</html>
